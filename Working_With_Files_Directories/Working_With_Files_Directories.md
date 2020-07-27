@@ -273,7 +273,8 @@ Please note that when we list a directory, we get only the files and sub-directo
 
 Modern python prefers using the _pathlib_ module:
 
-```>>> from pathlib import Path
+```python
+>>> from pathlib import Path
 >>> dir_entries = Path("data/")
 >>> for dir_entry in dir_entries.iterdir():
 ...     print(dir_entry.name)
